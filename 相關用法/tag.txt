@@ -8,3 +8,8 @@ let tag = system.getComponent(player, "minecraft:tag")
 ==tag語法==
 tag.data.includes("這邊放要找的tag")
 tag.data.push("放要新增的tag")
+
+==例子==
+if (!tag.data.includes("first")) {
+    tag.data.push("first");
+};
