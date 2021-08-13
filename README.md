@@ -1,8 +1,8 @@
 # 未經任何允許禁止任何轉載，如有轉載務必標示原作者。
 ***
 這個Project我會一直更新，但載點不會，所以要最新功能的話就多關注這個Project
-\n 有任何問題可以來私我或到易爆群組標我找我
-\n Discord: Patreon#4956
+有任何問題可以來私我或到易爆群組標我找我
+/nDiscord: Patreon#4956
 \n Discord群組: https://discord.gg/bkn293X
 
 # 所有教學
