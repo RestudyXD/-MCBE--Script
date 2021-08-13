@@ -2,7 +2,7 @@
 抓取對象要根據官方給的來抓取 不可以隨便來打!
 let player = eventData.data.player;
 
-//這邊用讀取出來的player來讀取tag數據
+這邊用讀取出來的player來讀取tag數據
 let tag = system.getComponent(player, "minecraft:tag")
 
 ==tag語法==
