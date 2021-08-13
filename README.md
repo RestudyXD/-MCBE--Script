@@ -6,6 +6,7 @@
 有任何問題可以來私我或到易爆群組標我找我 <br />
 Discord: **Patreon#4956** <br />
 Discord群組: https://discord.gg/bkn293X <br />
+Youtube: https://youtube.com/channel/UCzDOCivc0CXYF4CY9Eg4CxA <br />
 
 # 所有教學
 ***
