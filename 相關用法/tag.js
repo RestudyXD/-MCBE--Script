@@ -1,15 +1,15 @@
-抓player數據data 這邊用eventData.data.player當例子
-抓取對象要根據官方給的來抓取 不可以隨便來打!
+//抓player數據data 這邊用eventData.data.player當例子
+//抓取對象要根據官方給的來抓取 不可以隨便來打!
 let player = eventData.data.player;
 
-這邊用讀取出來的player來讀取tag數據
+//這邊用讀取出來的player來讀取tag數據
 let tag = system.getComponent(player, "minecraft:tag")
 
-==tag語法==
+//tag語法
 tag.data.includes("這邊放要找的tag")
 tag.data.push("放要新增的tag")
 
-==例子==
+//範例
 if (!tag.data.includes("first")) {
     tag.data.push("first");
 };
