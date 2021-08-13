@@ -16,5 +16,6 @@ let blockD = system.getComponent(block, "minecraft:blockstate");
 if (blockD.__identifier__ == "minecraft:stone") {
      system.ExecuteCommand(`say 有石頭！`)
 }
+//輸出: [Script Engine] 有石頭!
 
 //建議搭配事件來做使用
