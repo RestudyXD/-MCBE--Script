@@ -5,3 +5,6 @@
 # 所有教學
 ***
 * [Anti32K](https://youtu.be/mqV1nwAlfHY)
+* [物品偵測](https://youtu.be/5kSUHpDZj2s)
+* [精準擊殺](https://youtu.be/QrQrtezvaGU)
+* [前置作業](https://youtu.be/zTs7hSTXCHA)
