@@ -12,15 +12,18 @@ system.listenForEvent("minecraft:entity_death", function(eventData) {
 			let bekiller = system.getComponent(eventData.data.entity, "minecraft:nameable").data.name;
 			
 			let random = [
-			"打死了",
-			"弄死了",
-			"殺死了",
-			"打飛了"
+			`${killer} 打死了 ${bekiller}`,
+			`${killer} 弄死了 ${bekiller}`,
+			`${killer} 殺死了 ${bekiller}`,
+			`${killer} 打飛了 ${bekiller}`,
+			`${killer} 踹死了 ${bekiller}`,
+			`${killer} 詛咒了 ${bekiller} 死`,
+			"踢飛了"
 			]
 			
 			let reason = random[Math.floor(Math.random() * random.length)]
 			
-			execute(`say ${killer} ${reason} ${bekiller}`)
+			execute(`say {reason}`)
 			execute(`scoreboard players add ${killer} kill 1`)
 			execute(`scoreboard players add ${bekiller} death 1`)
 		}
