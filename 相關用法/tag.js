@@ -1,4 +1,4 @@
-//抓player數據data 這邊用eventData.data.player當例子
+//data後面的是根據事件能讀取到的來更改
 //抓取對象要根據官方給的來抓取 不可以隨便來打!
 let player = eventData.data.player;
 
