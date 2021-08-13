@@ -10,7 +10,7 @@ let blockpos = system.getComponent(block, "minecraft:position");
 //抓方塊檔案
 const block = system.getblock(tick_world.data.ticking_area, blockpos);
 //讀取抓到的block的檔案
-let blockD = system.getComponent(block, "minecraft:blockstate);
+let blockD = system.getComponent(block, "minecraft:blockstate");
 
 //範例
 if (blockD.__identifier__ == "minecraft:stone") {
