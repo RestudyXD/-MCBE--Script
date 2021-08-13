@@ -13,3 +13,4 @@ tag.data.push("放要新增的tag")
 if (!tag.data.includes("first")) {
     tag.data.push("first");
 };
+//輸出: 新稱first標籤到目標player
