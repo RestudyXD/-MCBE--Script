@@ -2,7 +2,7 @@
 ***
 這個Project我會一直更新，但載點不會，所以要最新功能的話就多關注這個Project <br />
 有任何問題可以來私我或到易爆群組標我找我 <br />
-Discord: Patreon#4956 <br />
+Discord: **Patreon#4956** <br />
 Discord群組: https://discord.gg/bkn293X <br />
 
 # 所有教學
