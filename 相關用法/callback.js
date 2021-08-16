@@ -4,14 +4,14 @@ system.executeCommand(`scoreboard players add @a[tag=reload] Oplay 0`, (commandR
 
 function cmdCallback(results) {
   let Message = results.data.statusMessage;
-	let subbed = (Message.split(" "));
-	if (subbed[0] == undefined) return;
+	let args = (Message.split(" "));
+	if (args[0] == undefined) return;
     //擷取Pplayer ID
-	let nameN = subbed[3];
+	let nameN = args[3];
     //擷取ScoreName
-	let scorenameN = subbed[5];
+	let scorenameN = args[5];
   //擷取Score
-	let scoreN = subbed[7];
+	let scoreN = args[7];
   //刪除不必要的文字
 	let scorename = scorenameN.substring(1).replace("]", "");
   //同上
