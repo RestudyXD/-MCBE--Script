@@ -8,7 +8,7 @@ var cblock = [
 
 system.listenForEvent("minecraft:player_destroyed_block", function(eventData) {
   //抓player
-	let playername = eventData.data.player
+  let playername = eventData.data.player
   //抓player的位置
   let pos = system.getComponent(playername, "minecraft:position").data;
   //重複直到找到玩家挖的方塊跟array list裡面相同
