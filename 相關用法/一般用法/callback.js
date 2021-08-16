@@ -3,18 +3,19 @@
 system.executeCommand(`scoreboard players add @a[tag=reload] Oplay 0`, (commandResults) => this.cmdCallback(commandResults));
 
 function cmdCallback(results) {
-  let Message = results.data.statusMessage;
+	//抓Message
+	let Message = results.data.statusMessage;
 	let args = (Message.split(" "));
 	if (args[0] == undefined) return;
-    //擷取Pplayer ID
+    	//擷取Pplayer ID
 	let nameN = args[3];
-    //擷取ScoreName
+    	//擷取ScoreName
 	let scorenameN = args[5];
-  //擷取Score
+  	//擷取Score
 	let scoreN = args[7];
-  //刪除不必要的文字
+  	//刪除不必要的文字
 	let scorename = scorenameN.substring(1).replace("]", "");
-  //同上
+  	//同上
 	let score = scoreN.replace(")", "");
 }
 
