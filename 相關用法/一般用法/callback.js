@@ -1,5 +1,5 @@
 //callback顧名思義類似指令執行完會回傳的輸出
-//這邊用回傳記分板分數例子
+//這邊用回傳記分板分數當例子
 system.executeCommand(`scoreboard players add @a[tag=reload] Oplay 0`, (commandResults) => this.cmdCallback(commandResults));
 
 function cmdCallback(results) {
